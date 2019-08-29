@@ -125,7 +125,7 @@ img
 {
     word-wrap: break-word;
 }
-@media all and (max-device-width: 640px)
+@media all and (max-device-width: 720px)
 {
     .date ,.disc
     {
