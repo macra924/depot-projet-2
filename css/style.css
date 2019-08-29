@@ -134,9 +134,9 @@ img
     {
         font-size: 0.8em;
     }
-    .contacts
+    .qui
     {
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
     #titre
     {
@@ -154,7 +154,7 @@ img
     } 
     {
     background-color: #FFD400;
-    width: 30%;
+    width: 35%;
     min-height: 100%;
     display: flex;
     flex-direction: column;  
@@ -162,7 +162,7 @@ img
     .contenu
     {
     
-    width: 70%;
+    width: 65%;
     margin-left: 2%;
     margin-top: 10%;
     margin-right: 2%;
