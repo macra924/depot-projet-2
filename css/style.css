@@ -121,7 +121,10 @@ img
     max-width: 80%;
     height: auto;
 }
-
+.mail
+{
+    word-wrap: break-word;
+}
 @media all and (max-device-width: 640px)
 {
     .date ,.disc
@@ -153,4 +156,5 @@ img
     {
         font-size: 0.9em;
     }
+
 }
