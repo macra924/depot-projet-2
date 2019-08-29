@@ -130,19 +130,6 @@ img
 
 @media all and (max-device-width: 640px)
 {
-   html
-    {
-        font-size: 0.8em;
-    }
-    .contacts
-    {
-        font-size: 0.9em;
-    }
-    #titre
-    {
-        font-size: 1em;
-    }
-    
     .date ,.disc
     {
         display: flex;
@@ -151,7 +138,8 @@ img
     .date
     {
         width: 60%;
-    } 
+    }
+    .qui
     {
     background-color: #FFD400;
     width: 35%;
@@ -167,5 +155,4 @@ img
     margin-top: 10%;
     margin-right: 2%;
     }
-} }
 }
