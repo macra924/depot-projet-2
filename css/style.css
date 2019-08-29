@@ -39,7 +39,7 @@ html {
 {
     
     width: 80%;
-    margin-left: 15px;
+    margin-left: 2%;
     margin-top: 10%;
 }
 section
@@ -80,7 +80,7 @@ h4
 .contacts
 {
     text-align: left;
-    padding-left: 35px;
+    padding-left: 5%;
 }
 .profil
 {
@@ -107,17 +107,47 @@ span
 }
 .date
 {
-    width: 30%;
+    width: 15%;
+    margin-right: 3%;
+}
+.loisirs
+{
+    text-align: left;
+    margin-left: 5%;
 }
 #diplome
 {
     font-style: italic;
 }
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
 @media all and (max-device-width: 480px)
 {
-   #titre
+   html
     {
         font-size: 0.6em;
     }
-
+    .qui a
+    {
+        font-size: 0.8em;
+    }
+    #titre
+    {
+        font-size: 1em;
+    }
+    
+    .date ,.disc
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .date
+    {
+        width: 60%;
+    }
+    
 }
