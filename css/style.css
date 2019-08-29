@@ -16,6 +16,10 @@ html {
     display:block; 
     font-family:'capsuularegular';
 }
+html, body {
+ margin:0;
+ padding:0;
+ }
 #page
 {
     display: flex;
@@ -41,11 +45,13 @@ html {
     width: 80%;
     margin-left: 2%;
     margin-top: 10%;
+    margin-right: 2%;
 }
 section
 {
     border-top: 2px aqua ridge;
-    padding-top: 15px;
+    padding-top: 2%;
+    
     
 }
 h1 span
@@ -113,6 +119,7 @@ span
 .loisirs
 {
     text-align: center;
+    margin-left: 5%;
 }
 #diplome
 {
@@ -120,7 +127,7 @@ span
 }
 img
 {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -128,11 +135,11 @@ img
 {
    html
     {
-        font-size: 0.6em;
-    }
-    .qui a
-    {
         font-size: 0.8em;
+    }
+    .contacts
+    {
+        font-size: 0.6em;
     }
     #titre
     {
@@ -149,4 +156,6 @@ img
         width: 60%;
     }
     
+    
+
 }
