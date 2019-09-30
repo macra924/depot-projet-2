@@ -2,194 +2,211 @@
     font-family: 'capsuularegular';
     src: url('Capsuula-webfont.eot');
     src: url('Capsuula-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Capsuula-webfont.woff2') format('woff2'),
-         url('Capsuula-webfont.woff') format('woff'),
-         url('Capsuula-webfont.ttf') format('truetype'),
-         url('Capsuula-webfont.svg#capsuularegular') format('svg');
+        url('Capsuula-webfont.woff2') format('woff2'),
+        url('Capsuula-webfont.woff') format('woff'),
+        url('Capsuula-webfont.ttf') format('truetype'),
+        url('Capsuula-webfont.svg#capsuularegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
+
 html {
     height: 100%;
     width: 100%;
-    display: block; 
-    font-family:'capsuularegular';
+    display: block;
+    font-family: 'capsuularegular';
 }
-html, body {
- margin:0;
- padding:0;
- }
-#page
-{
-    display: flex;  
+
+html,
+body {
+    margin: 0;
+    padding: 0;
 }
-.qui
-{
-    background-color: #FFD400;
+
+#page {
+    display: flex;
+}
+
+.qui {
+    background-color: #FECA07;
     width: 20%;
     min-height: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-    text-align: left;    
+    text-align: left;
 }
-.contacts
-{
+.profil p {
     padding: 0% 5% 0% 5%;
 }
-.profil
-{
-    padding: 0% 5% 0% 5%;   
-}
-.contenu
-{  
+
+.contenu {
     width: 80%;
     margin-left: 2%;
     margin-top: 10%;
     margin-right: 2%;
 }
-section
-{
+
+.block {
     border-top: 2px aqua ridge;
-    padding-top: 2%;   
+    padding-top: 2%;
+    border-color: #FECA07;
 }
-h1 span
-{
+
+h1 span {
     color: #FFD400;
 }
-h1
-{
-    text-align: center;    
+
+h1 {
+    text-align: center;
 }
-h2
-{
+
+h2 {
     margin-left: 15px;
 }
-h3
-{
-    color: white;
-    background-color: dimgrey;
-    text-align: center;    
-}
-h4
-{
+
+h3 {
+    color: #FECA07;
+    background-color: #404040;
     text-align: center;
+}
+
+h4 {
+    text-align: center;
+
+}
+
+.qui p {
+    text-align: center;
+}
+
+.qui i[class*="fa"] {
     
-}
-.qui p
-{
-    text-align: center;
-}
-i
-{
     margin-right: 5%;
+    margin-left: 5%;
 }
-span
-{
+.contenu i[class*="fa"] {
+    margin-right: 5%;
+    color: #FECA07;
+}
+
+span {
     text-align: center;
 }
-.date ,.desc
-{
+
+.date,
+.desc {
     display: inline-block;
     vertical-align: top;
-    margin-top: 2%;  
+    margin-top: 2%;
 }
-.date
-{
+
+.date {
     width: 20%;
     margin-right: 3%;
 }
-.loisirs
-{
+
+.loisirs {
     text-align: center;
-    
 }
-#diplome
-{
+
+.diplome {
     font-style: italic;
 }
-img
-{
+
+img {
     max-width: 80%;
     height: auto;
     margin: 2% auto 2% auto;
 }
-.mail
-{
+
+.mail {
     word-wrap: break-word;
 }
-#size
-{
+
+.size {
     display: none;
 }
-@media all and (max-device-width: 1280px)
-{
-    #size
-    {
+@media all and (max-device-width: 1280px) {
+    .size {
         display: inherit;
         margin-left: 5px;
     }
-    .date ,#cancel
-    {
+
+    .date,
+    .cancel {
         display: none;
     }
-    .qui
-    {
+
+    .qui {
         background-color: #FFD400;
         width: 30%;
         min-height: 100%;
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
     }
-    .contenu
-    {
+
+    .contenu {
         width: 70%;
         margin-left: 2%;
         margin-top: 10%;
         margin-right: 2%;
     }
-    body
-    {
+
+    body {
         font-size: 0.9em;
     }
-    .mail
-    {
+
+    .mail {
         font-size: 0.85em;
     }
 }
 
-@media all and (max-device-width: 425px)
-{
-    #size
-    {
+@media all and (max-device-width: 750px) {
+    
+    .contacts, i {
+        display: flex;
+        flex-direction: row;
+    }
+    img {
+        display: none;
+    }
+    #page {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .size {
         display: inherit;
         margin-left: 5px;
     }
-    .date
-    {
+
+    .date {
         display: none;
     }
-    .qui
-    {
+
+    .qui {
         background-color: #FFD400;
-        width: 30%;
-        min-height: 100%;
-        display: flex;
-        flex-direction: column; 
+        width: 100%;
+        min-height: 20%;
+        display: block;
+        flex-direction: row;
     }
-    .contenu
-    {
-        width: 70%;
-        margin-left: 2%;
-        margin-top: 10%;
-        margin-right: 2%;
+
+    .contenu {
+        min-width: 100%;
     }
-    body
-    {
+    
+    .block {
+        margin: 0% 5% 0% 5%;
+    }
+
+    body {
         font-size: 0.7em;
+        display: flex;
+        flex-direction: column;
     }
-    .contacts
-    {
+
+    .contacts {
         font-size: 0.8em;
     }
 }
