@@ -127,6 +127,9 @@ img {
 .size {
     display: none;
 }
+.mob {
+    display: none;
+}
 @media all and (max-device-width: 1280px) {
     .size {
         display: inherit;
@@ -168,6 +171,9 @@ img {
         display: flex;
         flex-direction: row;
     }
+    .contacts, a {
+       hyphens: none;
+    }
     img {
         display: none;
     }
@@ -206,12 +212,18 @@ img {
     }
 
     body {
-        font-size: 0.7em;
+        font-size: 1em;
         display: flex;
         flex-direction: column;
     }
 
     .contacts {
         font-size: 0.8em;
+    }
+    .pc {
+        display: none;
+    }
+    .mob {
+        display: inherit;
     }
 }
