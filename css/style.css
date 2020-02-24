@@ -128,9 +128,6 @@ img {
 .size {
     display: none;
 }
-.mob {
-    display: none;
-}
 @media all and (max-device-width: 1280px) {
     .size {
         display: inherit;
