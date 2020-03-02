@@ -1,105 +1,367 @@
-<!DOCTYPE html> 
+@font-face {
+    font-family: 'capsuularegular';
+    src: url('Capsuula-webfont.eot');
+    src: url('Capsuula-webfont.eot?#iefix') format('embedded-opentype'),
+        url('Capsuula-webfont.woff2') format('woff2'),
+        url('Capsuula-webfont.woff') format('woff'),
+        url('Capsuula-webfont.ttf') format('truetype'),
+        url('Capsuula-webfont.svg#capsuularegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
-<html lang="fr"> 
-    <head> 
-        <meta charset="utf-8" /> 
-        <title>mon cv</title> 
-        <link rel="stylesheet" href="css/style.css" /> 
-        <link rel="stylesheet" href="css/font-awesome/css/all.css" /> 
-        <link rel="stylesheet" href="css/font" />        
-    </head> 
-    <body>  
-    <div id = "page"> 
-       <nav class = "qui">  
-           <img src="image/photo.jpg"  alt="pas une photo de moi"/>
-               <h3>CONTACT</h3>    
-                <div class = "contacts">                 
-                    <i class="fas fa-address-card"></i>91 allée de edelweiss<br/>
-                    <i class="far fa-address-card"></i>74210 Saint Ferréol<br/> 
-                    <i class="mob"><i class="fas fa-phone"></i><a>07-66-41-32-37</a><br/></i>
-                    <i class="pc"><i class="fas fa-phone"></i><a>09-73-61-06-46</a><br/></i> 
-                    <i class="fas fa-at"></i><a href="mailto:sylvain.barroche@hotmail.fr" title="mail" class="mail">sylvain.barroche@hotmail.fr</a><br/> 
-                    <i class="fab fa-linkedin"></i><a href ="https://www.linkedin.com/in/barroche-sylvain-941508119/" title="social" class="social">linkedin</a>                                
-                </div>
-                <h3>SOFT SKILLS</h3>                        
-                <div class = "profil">            
-                <p>Autonome<br/>
-                Organisé<br/>
-                Fiable<br/>
-                Esprit d'equipe</p>                 
-               </div> 
-               <h3>LOISIRS</h3>          
-                <div class = "loisirs">              
-                aquariophilie<br/> 
-                informatique<br/> 
-                jeu vidéo , mmorpg / strategie<br/>
-                board game<br/> 
-                pêche<br/>
-               <h3>CREATIONS</h3> 
-                <div class="creations">
-                 un site de menu pour restaurant :<a href="https://macra924.github.io/OhMyFood/" title="crea" class="crea">ici</a><br/>
-                 un site pour mon cv :<a href="https://macra924.github.io/depot-projet-2/" title="crea" class="crea">ici</a><br/>
-                 optimisation d'un site web <a href="https://macra924.github.io/depot-projet-4-2/" title="crea" class="crea">ici</a>-><a href="https://macra924.github.io/depot-projet-4/" title="crea" class="crea">ici</a><br/>
-                        
-                </div> 
-                
-            </div>          
-        </nav> 
-        <div class = "contenu">    
-            <h1><span>SYLVAIN</span> BARROCHE</h1>     
-                <h4>Développeur web en formation</h4>    
-            <h2><i class="fas fa-book-open"></i>FORMATION</h2>   
-            <div class="block"> 
-                <div class = "date"> 
-                        <i class="far fa-calendar-alt"></i><strong>depuis aout 2019</strong><br/> 
-                            Saint Ferréol</div> 
-                <div class = "desc"> 
-                        <strong class="titre">OPENCLASSROOMS</strong><strong class="size">: depuis juillet 2019</strong><br/> 
-                        <span class= "diplome">prep'dev</span><br/><br class="cancel"> 
-                        <a>formation via la GEN en vue de préparer une formation de développeur web full stack </a></div><br/>
-                <div class = "date"> 
-                        <i class="far fa-calendar-alt"></i><strong>de septembre 2010 a juin 2012</strong><br/> 
-                            Doussard</div> 
-                <div class = "desc"> 
-                        <strong class="titre">CFA DE L'ERIER</strong><strong class="size">: de septembre 2010 a juin 2012</strong><br/> 
-                        <span class= "diplome">BAC PRO en maintenance des véhicules automobile</span><br/><br class="cancel"> 
-                        <a>préparation et obtention d'un BAC PRO en mécanique automobile </a></div><br/> 
-                <div class = "date"> 
-                        <i class="far fa-calendar-alt"></i><strong>de septembre 2008 a juin 2010</strong><br/> 
-                            Doussard</div> 
-                <div class = "desc"> 
-                        <strong class="titre">CFA DES EBEAUX</strong><strong class="size">: de septembre 2008 a juin 2010</strong><br/> 
-                        <span class= "diplome">CAP et BEP en maintenance des véhicules automobile</span><br/><br class="cancel"> 
-                        <a>préparation et obtention d'un CAP/BEP en mécanique automobile </a></div><br/>           
-                
-                                                 
-            </div>           
-            <h2><i class="far fa-address-card"></i>EXPERIENCE PROFESSIONELLE</h2>         
-            <div class="block">
-                <div class = "date"> 
-                        <i class="far fa-calendar-alt"></i><strong>de septembre 2008 a janvier 2017</strong><br/>
-                        </div> 
-                <div class = "desc"> 
-                        <strong class="titre">MECANICIEN AUTOMOBILE</strong>
-                        </div><br/>
-                <div class = "date"> 
-                        <i class="far fa-calendar-alt"></i><strong>de aout 2017 a janvier 2019</strong><br/>                       
-                            </div> 
-                <div class = "desc"> 
-                        <strong class="titre">MECANICIEN INTERIMAIRE</strong>
-                            </div><br/>                                 
-            </div>            
-            <h2><i class="fas fa-check-double"></i>COMPETENCES</h2>  
-             <div class="block">                     
-                 <ul> 
-                    <li><a href="ressource/HtmlCss.pdf">HTML/CSS</a></li> 
-                    <li><a href="ressource/JavaScript.pdf">notion en JAVA SCRIPT</a></li> 
-                    <li>analyse SEO</li> 
-                    <li>github/gitbash</li>
-                     
-                 </ul> 
-             </div> 
-        </div> 
-    </div> 
-    </body> 
-</html> 
+html {
+    height: 100%;
+    width: 100%;
+    display: block;
+    font-family: 'capsuularegular';
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    display: flex;
+}
+
+.qui {
+    background-color: #FECA07;
+    width: 20%;
+    min-height: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-around;
+}
+.profil p {
+    padding: 0% 2% 0% 2%;
+}
+
+.contenu {
+    width: 80%;
+    margin-left: 2%;
+    margin-top: 10%;
+    margin-right: 2%;
+}
+
+.block {
+    border-top: 2px aqua ridge;
+    padding-top: 2%;
+    border-color: #FECA07;
+}
+.block-c {
+    border-top: 2px aqua ridge;
+    padding-top: 2%;
+    border-color: #FECA07;
+    display: flex;
+}
+
+h1 span {
+    color: #FFD400;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+h3 {
+    color: #FECA07;
+    background-color: #404040;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+
+}
+
+.qui p {
+    text-align: center;
+}
+
+.qui i[class*="fa"] {
+    
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.contenu i[class*="fa"] {
+    margin-right: 5%;
+    color: #FECA07;
+}
+
+span {
+    text-align: center;
+}
+
+.date,
+.desc {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2%;
+}
+
+.date {
+    width: 20%;
+    margin-right: 3%;
+}
+
+.loisirs {
+    text-align: center;
+}
+
+.diplome {
+    font-style: italic;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    margin: 2% auto 2% auto;
+}
+
+.mail {
+    word-wrap: break-word;
+}
+
+.size {
+    display: none;
+}
+
+avancement {
+    background-color: aqua;
+}
+.progress-bar-1 { 
+    display: inline-flex;
+    margin-left: 150px;
+    width: 150px;
+    height: 10px;
+    padding: 2px;
+    background-color: gray;
+    border-radius: 15px;
+}
+.progress-bar-1:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    background: aqua;
+    border-radius: 15px;
+}
+.progress-bar-1:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    overflow: hidden;
+    border-radius: 12px;
+    transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: aliceblue;
+    opacity: 0.6;
+}
+.progress-bar-2 { 
+    display: inline-flex;
+    margin-left: 150px;
+    width: 150px;
+    height: 10px;
+    padding: 2px;
+    background-color: gray;
+    border-radius: 15px;
+}
+.progress-bar-2:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    background: aqua;
+    border-radius: 15px;
+}
+.progress-bar-2:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    overflow: hidden;
+    border-radius: 12px;
+    transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: aliceblue;
+    opacity: 0.6;
+}
+.progress-bar-3 { 
+    display: inline-flex;
+    margin-left: 150px;
+    width: 150px;
+    height: 10px;
+    padding: 2px;
+    background-color: gray;
+    border-radius: 15px;
+}
+.progress-bar-3:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background: aqua;
+    border-radius: 15px;
+}
+.progress-bar-3:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    overflow: hidden;
+    border-radius: 12px;
+    transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: aliceblue;
+    opacity: 0.6;
+}
+.progress-bar-4 { 
+    display: inline-flex;
+    margin-left: 150px;
+    width: 150px;
+    height: 10px;
+    padding: 2px;
+    background-color: gray;
+    border-radius: 15px;
+}
+.progress-bar-4:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    background: aqua;
+    border-radius: 15px;
+}
+.progress-bar-4:after { 
+    content: '|||||||||||||';
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    overflow: hidden;
+    border-radius: 12px;
+    transform: skewX(-30deg);
+    font: bold 120px/80px sans-serif;
+    letter-spacing: -6px;
+    color: aliceblue;
+    opacity: 0.6;
+}
+ul.bar-p {
+    list-style-type: none;
+}
+
+@media all and (max-device-width: 1280px) {
+    .size {
+        display: inherit;
+        margin-left: 5px;
+    }
+
+    .date,
+    .cancel {
+        display: none;
+    }
+
+    .qui {
+        background-color: #FFD400;
+        width: 30%;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenu {
+        width: 70%;
+        margin-left: 2%;
+        margin-top: 10%;
+        margin-right: 2%;
+    }
+
+    body {
+        font-size: 0.9em;
+    }
+
+    .mail {
+        font-size: 0.85em;
+    }
+}
+
+@media all and (max-device-width: 750px) {
+    
+    .contacts, i {
+        display: flex;
+        flex-direction: row;
+    }
+    .contacts, a {
+       hyphens: none;
+    }
+    img {
+        display: none;
+    }
+    #page {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .size {
+        display: inherit;
+        margin-left: 5px;
+    }
+
+    .date {
+        display: none;
+    }
+    .contenu {
+        width: 100%;
+        max-height: 80%;
+    }
+
+    .qui {
+        background-color: #FFD400;
+        width: 100%;
+        min-height: 20%;
+        display: inline-block;
+        flex-direction: row;
+    }
+
+    .contenu {
+        min-width: 100%;
+    }
+    
+    .block {
+        margin: 0% 5% 0% 5%;
+    }
+
+    body {
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts {
+        font-size: 0.8em;
+    }
+    .pc {
+        display: none;
+    }
+    
+}
