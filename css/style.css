@@ -134,10 +134,6 @@ img {
 .size {
     display: none;
 }
-
-avancement {
-    background-color: aqua;
-}
 .progress-bar-1 { 
     display: inline-flex;
     margin-left: 150px;
